@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T03:41:52.1556117+08:00",
+  "title": "Design System: 同步协议 / SYNC PROTOCOL",
+  "extensions": {
+    "colorMeta": {
+      "void": {
+        "role": "neutral",
+        "displayName": "Void Black",
+        "canonical": "#050504",
+        "tonalRamp": ["oklch(15.0% 0.0048 107.0)", "oklch(27.0% 0.0036 107.0)", "oklch(39.0% 0.0036 107.0)", "oklch(51.0% 0.0036 107.0)", "oklch(63.0% 0.0036 107.0)", "oklch(75.0% 0.0036 107.0)", "oklch(87.0% 0.0036 107.0)", "oklch(95.0% 0.0020 107.0)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink Black",
+        "canonical": "#0b0a08",
+        "tonalRamp": ["oklch(15.0% 0.0065 85.9)", "oklch(27.0% 0.0048 85.9)", "oklch(39.0% 0.0048 85.9)", "oklch(51.0% 0.0048 85.9)", "oklch(63.0% 0.0048 85.9)", "oklch(75.0% 0.0048 85.9)", "oklch(87.0% 0.0048 85.9)", "oklch(95.0% 0.0026 85.9)"]
+      },
+      "paper": {
+        "role": "secondary",
+        "displayName": "Warm Paper",
+        "canonical": "#e8e3d7",
+        "tonalRamp": ["oklch(15.0% 0.0229 88.0)", "oklch(27.0% 0.0170 88.0)", "oklch(39.0% 0.0170 88.0)", "oklch(51.0% 0.0170 88.0)", "oklch(63.0% 0.0170 88.0)", "oklch(75.0% 0.0170 88.0)", "oklch(87.0% 0.0170 88.0)", "oklch(95.0% 0.0093 88.0)"]
+      },
+      "paper-bright": {
+        "role": "secondary",
+        "displayName": "Bright Paper",
+        "canonical": "#f5f0e4",
+        "tonalRamp": ["oklch(15.0% 0.0227 88.0)", "oklch(27.0% 0.0168 88.0)", "oklch(39.0% 0.0168 88.0)", "oklch(51.0% 0.0168 88.0)", "oklch(63.0% 0.0168 88.0)", "oklch(75.0% 0.0168 88.0)", "oklch(87.0% 0.0168 88.0)", "oklch(95.0% 0.0092 88.0)"]
+      },
+      "bone": {
+        "role": "secondary",
+        "displayName": "Printed Bone",
+        "canonical": "#d9d3c5",
+        "tonalRamp": ["oklch(15.0% 0.0271 87.5)", "oklch(27.0% 0.0201 87.5)", "oklch(39.0% 0.0201 87.5)", "oklch(51.0% 0.0201 87.5)", "oklch(63.0% 0.0201 87.5)", "oklch(75.0% 0.0201 87.5)", "oklch(87.0% 0.0201 87.5)", "oklch(95.0% 0.0110 87.5)"]
+      },
+      "signal-red": {
+        "role": "primary",
+        "displayName": "Signal Red",
+        "canonical": "#d22a1f",
+        "tonalRamp": ["oklch(15.0% 0.2761 29.2)", "oklch(27.0% 0.2045 29.2)", "oklch(39.0% 0.2045 29.2)", "oklch(51.0% 0.2045 29.2)", "oklch(63.0% 0.2045 29.2)", "oklch(75.0% 0.2045 29.2)", "oklch(87.0% 0.2045 29.2)", "oklch(95.0% 0.1125 29.2)"]
+      },
+      "signal-red-text": {
+        "role": "primary",
+        "displayName": "Signal Red Text",
+        "canonical": "#e33a2c",
+        "tonalRamp": ["oklch(15.0% 0.2801 29.3)", "oklch(27.0% 0.2075 29.3)", "oklch(39.0% 0.2075 29.3)", "oklch(51.0% 0.2075 29.3)", "oklch(63.0% 0.2075 29.3)", "oklch(75.0% 0.2075 29.3)", "oklch(87.0% 0.2075 29.3)", "oklch(95.0% 0.1141 29.3)"]
+      },
+      "signal-red-on-paper": {
+        "role": "primary",
+        "displayName": "Signal Red on Paper",
+        "canonical": "#b8271d",
+        "tonalRamp": ["oklch(15.0% 0.2464 29.2)", "oklch(27.0% 0.1825 29.2)", "oklch(39.0% 0.1825 29.2)", "oklch(51.0% 0.1825 29.2)", "oklch(63.0% 0.1825 29.2)", "oklch(75.0% 0.1825 29.2)", "oklch(87.0% 0.1825 29.2)", "oklch(95.0% 0.1004 29.2)"]
+      },
+      "transmission-red": {
+        "role": "primary",
+        "displayName": "Transmission Red",
+        "canonical": "#7b100d",
+        "tonalRamp": ["oklch(15.0% 0.1902 28.4)", "oklch(27.0% 0.1409 28.4)", "oklch(39.0% 0.1409 28.4)", "oklch(51.0% 0.1409 28.4)", "oklch(63.0% 0.1409 28.4)", "oklch(75.0% 0.1409 28.4)", "oklch(87.0% 0.1409 28.4)", "oklch(95.0% 0.0775 28.4)"]
+      },
+      "emergency-orange": {
+        "role": "primary",
+        "displayName": "Emergency Orange",
+        "canonical": "#f06b3b",
+        "tonalRamp": ["oklch(15.0% 0.2372 39.5)", "oklch(27.0% 0.1757 39.5)", "oklch(39.0% 0.1757 39.5)", "oklch(51.0% 0.1757 39.5)", "oklch(63.0% 0.1757 39.5)", "oklch(75.0% 0.1757 39.5)", "oklch(87.0% 0.1757 39.5)", "oklch(95.0% 0.0966 39.5)"]
+      },
+      "sync-acid": {
+        "role": "tertiary",
+        "displayName": "Sync Acid",
+        "canonical": "#b9dc55",
+        "tonalRamp": ["oklch(15.0% 0.2228 122.3)", "oklch(27.0% 0.1650 122.3)", "oklch(39.0% 0.1650 122.3)", "oklch(51.0% 0.1650 122.3)", "oklch(63.0% 0.1650 122.3)", "oklch(75.0% 0.1650 122.3)", "oklch(87.0% 0.1650 122.3)", "oklch(95.0% 0.0908 122.3)"]
+      },
+      "eva-purple": {
+        "role": "tertiary",
+        "displayName": "Eva Purple",
+        "canonical": "#60477f",
+        "tonalRamp": ["oklch(15.0% 0.1254 303.5)", "oklch(27.0% 0.0929 303.5)", "oklch(39.0% 0.0929 303.5)", "oklch(51.0% 0.0929 303.5)", "oklch(63.0% 0.0929 303.5)", "oklch(75.0% 0.0929 303.5)", "oklch(87.0% 0.0929 303.5)", "oklch(95.0% 0.0511 303.5)"]
+      },
+      "tokyo-blue": {
+        "role": "tertiary",
+        "displayName": "Tokyo Blue",
+        "canonical": "#5884aa",
+        "tonalRamp": ["oklch(15.0% 0.1024 245.6)", "oklch(27.0% 0.0759 245.6)", "oklch(39.0% 0.0759 245.6)", "oklch(51.0% 0.0759 245.6)", "oklch(63.0% 0.0759 245.6)", "oklch(75.0% 0.0759 245.6)", "oklch(87.0% 0.0759 245.6)", "oklch(95.0% 0.0417 245.6)"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Gray",
+        "canonical": "#8d887d",
+        "tonalRamp": ["oklch(15.0% 0.0232 86.5)", "oklch(27.0% 0.0172 86.5)", "oklch(39.0% 0.0172 86.5)", "oklch(51.0% 0.0172 86.5)", "oklch(63.0% 0.0172 86.5)", "oklch(75.0% 0.0172 86.5)", "oklch(87.0% 0.0172 86.5)", "oklch(95.0% 0.0095 86.5)"]
+      },
+      "faint-line": {
+        "role": "neutral",
+        "displayName": "Faint Line",
+        "canonical": "rgba(232, 227, 215, 0.2)",
+        "tonalRamp": ["oklch(15.0% 0.0229 88.0)", "oklch(27.0% 0.0170 88.0)", "oklch(39.0% 0.0170 88.0)", "oklch(51.0% 0.0170 88.0)", "oklch(63.0% 0.0170 88.0)", "oklch(75.0% 0.0170 88.0)", "oklch(87.0% 0.0170 88.0)", "oklch(95.0% 0.0093 88.0)"]
+      },
+      "structural-line": {
+        "role": "neutral",
+        "displayName": "Structural Line",
+        "canonical": "rgba(232, 227, 215, 0.25)",
+        "tonalRamp": ["oklch(15.0% 0.0229 88.0)", "oklch(27.0% 0.0170 88.0)", "oklch(39.0% 0.0170 88.0)", "oklch(51.0% 0.0170 88.0)", "oklch(63.0% 0.0170 88.0)", "oklch(75.0% 0.0170 88.0)", "oklch(87.0% 0.0170 88.0)", "oklch(95.0% 0.0093 88.0)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Cinematic Mincho", "purpose": "电影式超大日文与中文章节标题。" },
+      "headline": { "displayName": "Chapter Assertion", "purpose": "章节主叙事与大型断言。" },
+      "title": { "displayName": "Dossier Title", "purpose": "角色、机体和使徒姓名。" },
+      "body": { "displayName": "Reading Serif", "purpose": "档案正文、说明与来源文字。" },
+      "label": { "displayName": "Instrument Label", "purpose": "导航、坐标、按钮与诊断标签。" },
+      "metric": { "displayName": "Bodoni Telemetry", "purpose": "同步率、距离和时间式读数。" }
+    },
+    "shadows": [
+      { "name": "selected-machine-underline", "value": "inset 0 -2px var(--acid)", "purpose": "EVA 编号选中态。" },
+      { "name": "selected-era-underline", "value": "inset 0 -2px var(--red)", "purpose": "年代标签选中态。" },
+      { "name": "archive-glitch", "value": "3px 0 var(--red), -3px 0 rgba(240, 107, 59, 0.55)", "purpose": "使徒档案中和后的短暂裂解。" }
+    ],
+    "motion": [
+      { "name": "ease-synchro", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "主要位置与裁剪转场。" },
+      { "name": "state-fast", "value": "180ms ease", "purpose": "颜色、边框与背景状态切换。" },
+      { "name": "action-shift", "value": "220ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "主按钮和应急控件位移。" },
+      { "name": "chapter-crossfade", "value": "760ms", "purpose": "章节 BGM 交叉淡化。" },
+      { "name": "voice-duck", "value": "300ms", "purpose": "合成语音播放时压低 BGM。" },
+      { "name": "continuity-flip", "value": "720ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "1995/2021 翻面卡片。" },
+      { "name": "continuity-drag", "value": "max 18deg, 0ms while dragging", "purpose": "双年代角色卡片的限量水平拖拽旋转。" },
+      { "name": "field-break", "value": "620ms steps(6)", "purpose": "AT 力场中和与档案裂解。" },
+      { "name": "voice-meter", "value": "640ms steps(4) infinite alternate", "purpose": "播放中的五条声柱。" }
+    ],
+    "breakpoints": [
+      { "name": "compact-desktop", "value": "1180px" },
+      { "name": "tablet", "value": "920px" },
+      { "name": "mobile", "value": "620px" }
+    ],
+    "audioStates": [
+      { "name": "normal-volume", "value": "0.38", "purpose": "章节 BGM 正常音量。" },
+      { "name": "ducked-volume", "value": "0.10", "purpose": "合成语音播放时的 BGM 音量。" },
+      { "name": "enable-fade", "value": "620ms", "purpose": "首次开启 BGM。" },
+      { "name": "disable-fade", "value": "360ms", "purpose": "关闭 BGM。" }
+    ],
+    "layers": [
+      { "name": "webgl", "value": "0", "purpose": "Three.js 场景画布。" },
+      { "name": "grain", "value": "2", "purpose": "全页颗粒与中线扫描。" },
+      { "name": "content", "value": "3", "purpose": "可读 DOM 档案。" },
+      { "name": "chapter-rail", "value": "40", "purpose": "固定滚动章节轨。" },
+      { "name": "hud", "value": "60", "purpose": "固定页眉与声音控制。" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "action-primary",
+      "description": "首屏“开始同步”与同等高优先级确认动作；暖纸底在悬停时切换为酸绿执行态。",
+      "html": "<button class='ds-action ds-action--primary' type='button'><span>开始同步</span><svg viewBox='0 0 24 24' aria-hidden='true'><path d='M5 12h14m-5-5 5 5-5 5'/></svg></button>",
+      "css": ".ds-action{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;min-width:164px;min-height:48px;padding:0 18px;border:1px solid var(--line,rgba(232,227,215,.25));background:transparent;font-family:var(--label,'Archivo Narrow'),sans-serif;font-size:14px;letter-spacing:.07em;text-transform:uppercase;transition:color 220ms ease,background 220ms ease,border-color 220ms ease,transform 220ms cubic-bezier(.16,1,.3,1);cursor:pointer}.ds-action svg{width:20px;fill:none;stroke:currentColor;stroke-width:1.5}.ds-action--primary{color:var(--black,#050504);border-color:var(--paper,#e8e3d7);background:var(--paper,#e8e3d7)}.ds-action--primary:hover{color:var(--black,#050504);border-color:var(--acid,#b9dc55);background:var(--acid,#b9dc55);transform:translateX(4px)}.ds-action:focus-visible{outline:2px solid var(--acid,#b9dc55);outline-offset:4px}.ds-action:active{transform:translateX(1px)}"
+    },
+    {
+      "name": "Quiet Action",
+      "kind": "button",
+      "refersTo": "action-quiet",
+      "description": "“静音浏览”等不强调执行态的动作；透明底保持电影空间不被按钮截断。",
+      "html": "<button class='ds-action ds-action--quiet' type='button'>静音浏览</button>",
+      "css": ".ds-action--quiet{display:inline-flex;align-items:center;justify-content:space-between;min-width:164px;min-height:48px;padding:0 18px;border:1px solid var(--line,rgba(232,227,215,.25));background:transparent;color:var(--paper,#e8e3d7);font-family:var(--label,'Archivo Narrow'),sans-serif;font-size:14px;letter-spacing:.07em;text-transform:uppercase;transition:color 220ms ease,background 220ms ease,border-color 220ms ease,transform 220ms cubic-bezier(.16,1,.3,1);cursor:pointer}.ds-action--quiet:hover{color:var(--black,#050504);border-color:var(--bone,#d9d3c5);background:var(--bone,#d9d3c5)}.ds-action--quiet:focus-visible{outline:2px solid var(--acid,#b9dc55);outline-offset:4px}.ds-action--quiet:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Voice Button",
+      "kind": "button",
+      "refersTo": "voice-button",
+      "description": "角色合成日语朗读控制；图标、文字、aria-pressed 与五条声柱共同表达播放状态。",
+      "html": "<button class='ds-voice is-playing' type='button' aria-label='暂停碇真嗣的日语合成台词' aria-pressed='true'><span class='ds-voice__icon'><svg viewBox='0 0 24 24' aria-hidden='true'><path d='M7 5h4v14H7zm6 0h4v14h-4z'/></svg></span><span class='ds-voice__label'>暂停合成</span><i class='ds-voice__meter' aria-hidden='true'><b></b><b></b><b></b><b></b><b></b></i></button>",
+      "css": ".ds-voice{display:grid;grid-template-columns:32px 1fr auto;align-items:center;gap:10px;min-height:58px;padding:9px 12px;border:1px solid rgba(11,10,8,.42);background:transparent;color:var(--ink,#0b0a08);font-family:var(--label,'Archivo Narrow'),sans-serif;font-size:12px;letter-spacing:.06em;text-align:left;transition:color 180ms ease,background 180ms ease;cursor:pointer}.ds-voice:hover,.ds-voice[aria-pressed='true']{color:var(--paper-bright,#f5f0e4);background:var(--ink,#0b0a08)}.ds-voice__icon svg{width:23px;fill:currentColor}.ds-voice:focus-visible{outline:2px solid var(--acid,#b9dc55);outline-offset:4px}.ds-voice:active{transform:translateY(1px)}.ds-voice__meter{display:flex;align-items:center;gap:2px;height:24px}.ds-voice__meter b{width:2px;height:6px;background:currentColor;opacity:.45;animation:ds-voice-meter 640ms steps(4) infinite alternate}.ds-voice__meter b:nth-child(2){animation-delay:-80ms}.ds-voice__meter b:nth-child(3){animation-delay:-240ms}.ds-voice__meter b:nth-child(4){animation-delay:-160ms}.ds-voice__meter b:nth-child(5){animation-delay:-320ms}@keyframes ds-voice-meter{0%{height:5px;opacity:.4}100%{height:23px;opacity:1}}"
+    },
+    {
+      "name": "Official Reel Button",
+      "kind": "button",
+      "refersTo": "official-reel",
+      "description": "角色页的官方原声短片入口；缩略图与“非原声 / 官方入口”标签并存，无独立可核验短片的角色转为 khara 官方频道入口。",
+      "html": "<button class='ds-reel' type='button'><span class='ds-reel__thumb' aria-hidden='true'>OFFICIAL</span><span class='ds-reel__copy'><b>官方原声短片</b><small>YouTube · 官方宣传影像</small></span></button>",
+      "css": ".ds-reel{display:grid;grid-template-columns:64px minmax(0,1fr);align-items:center;gap:10px;min-height:58px;padding:6px;border:1px solid rgba(11,10,8,.28);background:transparent;color:var(--ink,#0b0a08);text-align:left;transition:color 180ms ease,background 180ms ease,border-color 180ms ease;cursor:pointer}.ds-reel__thumb{display:grid;width:64px;height:42px;place-items:center;background:linear-gradient(135deg,#2d2c28,#080807);color:#e8e3d7;font-family:var(--label,'Archivo Narrow'),sans-serif;font-size:8px;letter-spacing:.08em;filter:grayscale(1) contrast(1.2)}.ds-reel__copy{display:grid;gap:2px;min-width:0}.ds-reel b{font-family:var(--display,'Noto Serif JP'),serif;font-size:14px;font-weight:900;letter-spacing:-.015em}.ds-reel small{overflow:hidden;color:#5d584f;font-family:var(--label,'Archivo Narrow'),sans-serif;font-size:10px;letter-spacing:.04em;text-overflow:ellipsis;white-space:nowrap}.ds-reel:hover{color:var(--paper-bright,#f5f0e4);border-color:var(--ink,#0b0a08);background:var(--ink,#0b0a08)}.ds-reel:hover small{color:var(--bone,#d9d3c5)}.ds-reel:focus-visible{outline:2px solid var(--acid,#b9dc55);outline-offset:4px}.ds-reel:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Machine Tabs",
+      "kind": "nav",
+      "refersTo": "machine-tab",
+      "description": "00 / 01 / 02 / 08 四机体同步选择；酸绿只标记当前机库焦点。",
+      "html": "<div class='ds-machine-tabs' role='tablist' aria-label='选择 EVA 机体'><button role='tab' aria-selected='false' tabindex='-1'><span>00</span>零号机</button><button role='tab' aria-selected='true' tabindex='0'><span>01</span>初号机</button><button role='tab' aria-selected='false' tabindex='-1'><span>02</span>二号机</button><button role='tab' aria-selected='false' tabindex='-1'><span>08</span>八号机</button></div>",
+      "css": ".ds-machine-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line,rgba(232,227,215,.25));border-bottom:1px solid var(--line,rgba(232,227,215,.25));background:rgba(5,8,7,.88);backdrop-filter:blur(8px)}.ds-machine-tabs button{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center;min-height:54px;padding:0 clamp(13px,2.3vw,28px);border:0;border-right:1px solid var(--line,rgba(232,227,215,.25));background:transparent;color:var(--muted,#8d887d);font-family:var(--label,'Archivo Narrow'),sans-serif;font-size:13px;letter-spacing:.04em;text-align:left;transition:color 180ms ease,background 180ms ease;cursor:pointer}.ds-machine-tabs button:last-child{border-right:0}.ds-machine-tabs button span{color:var(--red-text,#e33a2c);font-family:var(--latin,'Bodoni Moda'),serif;font-size:21px}.ds-machine-tabs button:hover,.ds-machine-tabs button[aria-selected='true']{color:var(--paper-bright,#f5f0e4);background:rgba(185,220,85,.07)}.ds-machine-tabs button[aria-selected='true']{box-shadow:inset 0 -2px var(--acid,#b9dc55)}.ds-machine-tabs button:focus-visible{outline:2px solid var(--acid,#b9dc55);outline-offset:-3px}.ds-machine-tabs button:active{background:rgba(185,220,85,.12)}"
+    },
+    {
+      "name": "AT Field Neutralization",
+      "kind": "button",
+      "refersTo": "field-trigger",
+      "description": "使徒章节的状态转换入口；点击或 Enter 后由力场锁定转为档案暴露。",
+      "html": "<button class='ds-field' type='button'><span>中和 AT 力场</span><b>ENTER / CLICK</b></button>",
+      "css": ".ds-field{display:grid;gap:5px;min-height:118px;padding:22px;border:1px solid var(--red,#d22a1f);background:transparent;color:var(--paper-bright,#f5f0e4);text-align:left;transition:color 220ms ease,background 220ms ease,transform 220ms cubic-bezier(.16,1,.3,1);cursor:pointer}.ds-field span{font-family:var(--display,'Noto Serif JP'),serif;font-size:clamp(1.6rem,2.6vw,2.3rem);font-weight:900;letter-spacing:-.035em}.ds-field b{color:var(--orange,#f06b3b);font-family:var(--label,'Archivo Narrow'),sans-serif;font-size:10px;font-weight:400;letter-spacing:.08em}.ds-field:hover{color:var(--black,#050504);background:var(--orange,#f06b3b);transform:translateX(5px)}.ds-field:hover b{color:var(--black,#050504)}.ds-field:focus-visible{outline:2px solid var(--acid,#b9dc55);outline-offset:4px}.ds-field:active{transform:translateX(2px)}"
+    },
+    {
+      "name": "Era Tabs",
+      "kind": "nav",
+      "refersTo": "era-tab",
+      "description": "1995—2021 六段年代索引；红底与内置红线负责方向，Bodoni 年份负责电影时间轴。",
+      "html": "<div class='ds-era-tabs' role='tablist' aria-label='选择年代'><button role='tab' aria-selected='true' tabindex='0'><span>1995</span>TV</button><button role='tab' aria-selected='false' tabindex='-1'><span>1997</span>旧剧场版</button><button role='tab' aria-selected='false' tabindex='-1'><span>2007</span>序</button><button role='tab' aria-selected='false' tabindex='-1'><span>2009</span>破</button><button role='tab' aria-selected='false' tabindex='-1'><span>2012</span>Q</button><button role='tab' aria-selected='false' tabindex='-1'><span>2021</span>终</button></div>",
+      "css": ".ds-era-tabs{display:grid;grid-template-columns:repeat(6,minmax(90px,1fr));overflow-x:auto;border-top:1px solid var(--line,rgba(232,227,215,.25));border-bottom:1px solid var(--line,rgba(232,227,215,.25));background:rgba(5,5,4,.9);backdrop-filter:blur(8px)}.ds-era-tabs button{display:grid;gap:2px;min-height:62px;padding:8px;border:0;border-right:1px solid var(--line,rgba(232,227,215,.25));background:transparent;color:var(--muted,#8d887d);font-family:var(--label,'Archivo Narrow'),sans-serif;font-size:11px;letter-spacing:.04em;text-align:center;transition:color 180ms ease,background 180ms ease;cursor:pointer}.ds-era-tabs button:last-child{border-right:0}.ds-era-tabs button span{color:var(--red-text,#e33a2c);font-family:var(--latin,'Bodoni Moda'),serif;font-size:18px}.ds-era-tabs button:hover,.ds-era-tabs button[aria-selected='true']{color:var(--paper-bright,#f5f0e4);background:rgba(210,42,31,.13)}.ds-era-tabs button[aria-selected='true']{box-shadow:inset 0 -2px var(--red,#d22a1f)}.ds-era-tabs button:focus-visible{outline:2px solid var(--acid,#b9dc55);outline-offset:-3px}.ds-era-tabs button:active{background:rgba(210,42,31,.2)}"
+    },
+    {
+      "name": "Trailer Dialog",
+      "kind": "custom",
+      "refersTo": "trailer-dialog",
+      "description": "官方 YouTube 影像的 16:9 原生对话框；关闭即卸载 iframe，不让声音退到后台。",
+      "html": "<section class='ds-trailer' role='dialog' aria-modal='true' aria-label='官方预告'><div class='ds-trailer__bar'><h2>官方预告</h2><button type='button' aria-label='关闭预告'><svg viewBox='0 0 24 24' aria-hidden='true'><path d='m6 6 12 12M18 6 6 18'/></svg></button></div><div class='ds-trailer__frame'><span>OFFICIAL YOUTUBE / EMBED</span></div><p>影像由 YouTube 官方嵌入播放。关闭后停止加载，避免后台播放。</p></section>",
+      "css": ".ds-trailer{width:min(1080px,calc(100vw - 32px));overflow:hidden;color:var(--paper,#e8e3d7);border:1px solid var(--red,#d22a1f);background:var(--black,#050504);font-family:var(--label,'Archivo Narrow'),sans-serif}.ds-trailer__bar{display:flex;align-items:center;justify-content:space-between;min-height:50px;padding:0 14px 0 20px;border-bottom:1px solid var(--line,rgba(232,227,215,.25))}.ds-trailer__bar h2{margin:0;font-size:13px;font-weight:400;letter-spacing:.06em}.ds-trailer__bar button{display:grid;width:44px;height:44px;padding:11px;place-items:center;border:0;background:transparent;color:inherit;cursor:pointer}.ds-trailer__bar svg{width:20px;fill:none;stroke:currentColor;stroke-width:1.5}.ds-trailer__bar button:hover{background:var(--red,#d22a1f)}.ds-trailer__bar button:focus-visible{outline:2px solid var(--acid,#b9dc55);outline-offset:-4px}.ds-trailer__frame{display:grid;aspect-ratio:16/9;place-items:center;background:linear-gradient(135deg,#160807,#000);color:var(--orange,#f06b3b);font-size:11px;letter-spacing:.08em}.ds-trailer p{padding:12px 20px 14px;margin:0;color:var(--muted,#8d887d);font-size:11px}.ds-trailer p a{color:var(--paper,#e8e3d7)}.ds-trailer__bar button:active{transform:scale(.96)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "同步观测电影 / The Synchro Observation Film",
+    "overview": "这套系统把《新世纪福音战士》组织成一件可滚动的同步观测装置：单一 WebGL 画布提供镜头、力场、机库和城市纵深，DOM 在其上承载可读档案、控制与来源说明。设计单位不是卡片，而是空间、镜头位置与信息层；滚动推进观察进度，指针只做有限视差，声音开启后才会进入章节音乐状态。\n\n双阵营靠“物质”而不只靠颜色区分。NERV 使用暖纸、近黑正文与荧光绿同步状态，紫与蓝只作为机体和城市条件色；SEELE 则在近黑传输面上使用警报红、应急橙、扫描线和硬切文字，像一段从系统内部收到的广播。两者的字体骨架相同，差异来自底色、边框、字距、遮片与运动方向。\n\n声音是可选的状态层，不是背景装饰：七个章节各自对应一条原创 BGM，默认静音，开启后在章节之间交叉淡化；角色合成语音会压低 BGM，官方原声短片只经用户触发并在原生对话框中进入。所有视觉与交互事实以当前构建代码为准，本文不构成截图、无障碍或性能验收结论。",
+    "keyCharacteristics": [
+      "近黑空间、暖纸档案与高稀缺警报红共同构成主层。",
+      "WebGL、CSS 3D、扫描线、颗粒和遮片负责纵深，卡片阴影不负责纵深。",
+      "NERV 向上浮入、纸张展开；SEELE 横向切入、故障闪断。",
+      "大字号 Mincho 负责叙事，Bodoni 负责同步率与距离，Archivo Narrow 负责仪表标签。",
+      "所有声音默认关闭，章节 BGM、合成语音和官方影像入口都有可见状态。",
+      "直角、1px 细线、45° 力场框和硬遮片贯穿全站。"
+    ],
+    "rules": [
+      { "name": "The Faction Ground Rule", "body": "NERV 的阅读面以暖纸建立，SEELE 的阅读面以近黑传输建立；同一信息不能只换一个标签色就声称完成了阵营区分。", "section": "colors" },
+      { "name": "The Small Signal Rule", "body": "深底小字使用 Signal Red Text，纸面小字使用 Signal Red on Paper；标准 Signal Red 留给大字号、边框、背景块和状态线。", "section": "colors" },
+      { "name": "The Single Type Spine Rule", "body": "阵营差异优先通过纸/传输底、红/酸绿状态、遮片和运动建立；不要让 NERV 与 SEELE 各自拥有一套互不相干的字体系统。", "section": "typography" },
+      { "name": "The Camera-Not-Card Rule", "body": "深度先由 WebGL 镜头、图层与遮片建立；不要用大面积投影或通用玻璃卡片替代空间关系。", "section": "elevation" },
+      { "name": "The Hard Edge Rule", "body": "结构面保持 0px 圆角；斜切、旋转或虚线只能服务于力场、传输与缺项语义，不能成为任意装饰。", "section": "shapes" }
+    ],
+    "dos": [
+      "**Do** 用暖纸与近黑传输面先建立阵营，再叠加红、橙、酸绿、紫和蓝的条件状态。",
+      "**Do** 把 WebGL 当作镜头与空间层，把 DOM 当作可读、可聚焦、可复制的档案层。",
+      "**Do** 为每个声音入口提供明确的开启、暂停、失败与来源说明；默认静音，并允许从首屏静音浏览。",
+      "**Do** 使用直角、1px 细线、裁切、扫描线和步骤动画，让电影式的硬边成为系统性格。",
+      "**Do** 在窄屏保留横向标签带，同时保证主要触控目标至少 44px。",
+      "**Do** 把官方视频作为外部嵌入或外链，保留非官方、非商业与来源边界。"
+    ],
+    "donts": [
+      "**Don't** 把系统做成通用霓虹科幻 HUD、圆角玻璃卡或无限粒子背景。",
+      "**Don't** 用同一套淡入视差代替章节差异；NERV 上浮、SEELE 横切、机体扫描、使徒裂解和城市上升必须保持各自行为。",
+      "**Don't** 把 Acid Green、Eva Purple 或 Tokyo Blue 当作全站通用强调色；它们只在对应状态和语境中出现。",
+      "**Don't** 自动播放声音、跳过用户手势加载官方视频，或把合成语音标成原声。",
+      "**Don't** 用投影、圆角或模糊伪造纵深，掩盖镜头、材料和信息层的关系。",
+      "**Don't** 把本文当作截图验收、无障碍合格、性能实测或素材授权完成的证明。"
+    ]
+  }
+}

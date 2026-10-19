@@ -1,0 +1,37 @@
+{
+  "verifiedAt": "2026-10-19",
+  "channel": "株式会社カラー khara inc.official",
+  "usage": "仅作为官方 YouTube 嵌入入口与本地缩略图索引，不下载视频流或独立音轨",
+  "videos": [
+    {
+      "character": "碇真嗣",
+      "videoId": "G1lMNnXlWHg",
+      "title": "Character Promotion Reel 碇シンジ",
+      "thumbnail": "character-reel-shinji.jpg"
+    },
+    {
+      "character": "绫波丽",
+      "videoId": "8lxhykF9z1c",
+      "title": "Character Promotion Reel 綾波レイ／アヤナミレイ（仮称）",
+      "thumbnail": "character-reel-rei.jpg"
+    },
+    {
+      "character": "明日香",
+      "videoId": "vGnp7D8U4bs",
+      "title": "Character Promotion Reel 式波・アスカ・ラングレー",
+      "thumbnail": "character-reel-asuka.jpg"
+    },
+    {
+      "character": "葛城美里",
+      "videoId": "LR4WskvTt0Q",
+      "title": "Character Promotion Reel 葛城ミサト",
+      "thumbnail": "character-reel-misato.jpg"
+    },
+    {
+      "character": "渚薰",
+      "videoId": "OChURARqU-c",
+      "title": "Character Promotion Reel 渚カヲル",
+      "thumbnail": "character-reel-kaworu.jpg"
+    }
+  ]
+}
