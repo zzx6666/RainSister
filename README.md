@@ -56,6 +56,47 @@ npm run build
 npm run preview
 ```
 
+## 部署与发布
+
+线上站点由 Cloudflare Pages 从 GitHub 仓库自动构建，生产环境地址为：
+
+```text
+https://eva-dev-7hk.pages.dev
+```
+
+| 项目 | 配置 |
+| --- | --- |
+| GitHub 仓库 | `https://github.com/zzx6666/RainSister` |
+| Cloudflare Pages 项目 | `eva-dev` |
+| 生产分支 | `main` |
+| 构建命令 | `npm run build` |
+| 构建输出目录 | `dist` |
+| Node.js 版本 | 构建镜像默认版本（当前为 22.x） |
+
+### 日常发布流程
+
+```powershell
+npm run dev          # 本地开发与预览
+npm run check        # 类型检查
+npm run build        # 确认可生成 dist/
+git add -A
+git commit -m "说明本次改动"
+git push             # 推送到 main 后自动触发生产部署
+```
+
+推送后可在 Cloudflare Dashboard 的 `Workers & Pages → eva-dev → Deployments` 查看构建日志。非 `main` 分支和 Pull Request 会生成独立的预览部署，不影响生产环境。
+
+### 手动部署备用方案
+
+若需要跳过 Git 集成直接上传本地构建产物：
+
+```powershell
+npm run build
+npx wrangler pages deploy dist --project-name eva-dev --branch main
+```
+
+`dist/` 与 `node_modules/` 均不进入 Git 仓库，构建产物由 Cloudflare 在远程重新生成。
+
 ## 七场结构与固定锚点
 
 来源：`src/ui.ts`、`src/scenes/SceneManager.ts` 与 `research/storyboard.md`。分镜文档是视觉设计契约；下文只描述当前代码已经实现的空间行为，不把分镜中的未来设想当作现有功能。
